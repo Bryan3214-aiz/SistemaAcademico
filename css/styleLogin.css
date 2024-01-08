@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(../img/fondoLogin2.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: rgba(3, 3, 3, 0.8);
+    color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+    text-align: left;
+}
+
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+}
+
+.auto-styleBoton {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border: #1d1d1d 1px solid;
+    outline: none;
+    height: 45px;
+    width: 240px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+.auto-styleBoton:hover {
+    background: lightcyan;
+    color: black;
+    transform: scale(1.1);
+}
+
+.login-box a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.login-box a:hover {
+    color: #fff;
+}
+
+.btn btn-primary w-100 py-2 {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.btn btn-primary w-100 py-2 {
+    color: #fff;
+}
+/* Estilo para el elemento select */
+.login-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Estilo para las opciones dentro del elemento select */
+.login-box select option {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo adicional para resaltar el borde al enfocar el elemento select */
+.login-box select:focus {
+    border: 2px solid lightcyan;
+}
